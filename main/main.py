@@ -56,7 +56,7 @@ cnt = 1
 for rad in all_availaibe_radius:
     drawing = np.zeros((canny_output.shape[0], canny_output.shape[1], 3), dtype=np.uint8)
     drawing[:] = 255
-    threshold = 10
+    threshold = 1
     for i in range(len(contours)):
         if int(radius[i]) == rad and rad_dic[rad] > threshold:
             color = (76, 76, 76)
@@ -68,3 +68,4 @@ for rad in all_availaibe_radius:
         plt.axis('off')
         plt.title("Blobs Of Radius " + str(rad))
         cnt+=1
+plt.show()
