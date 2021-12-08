@@ -66,10 +66,10 @@ Method used here simply involves following steps :-
   <img src="main/images/ReadMe_Images/canny.png" width=48% title="Equalized Image">
 </p>
 <p>
-  <img src="main/images/ReadMe_Images/result.png" title="Histogram Of Equalized Image">
+  <img src="main/images/ReadMe_Images/result.png" width=96% title="Histogram Of Equalized Image">
 </p>
 
-## Project status
+## Status
   ***Completed***
 
 
